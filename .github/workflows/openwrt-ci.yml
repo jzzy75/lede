@@ -76,14 +76,6 @@ jobs:
           CONFIG_TARGET_IMAGES_GZIP=y
           CONFIG_KERNEL_BUILD_USER="OpenWrt-CI"
           CONFIG_KERNEL_BUILD_DOMAIN="Azure"
-          REPO_BRANCH: master
-          CONFIG_FILE: .config
-          DIY_SH: diy.sh
-          FREE_UP_DISK: false
-          SSH_ACTIONS: true
-          UPLOAD_BIN_DIR: false
-          UPLOAD_FIRMWARE: true
-          TZ: Asia/Shanghai
           EOF
 
           #
